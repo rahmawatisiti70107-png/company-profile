@@ -173,7 +173,7 @@ export default function Home() {
           {/* KEGIATAN BELAJAR */}
           <div className="program-card">
             <img
-              src="/company-profile/kegiatan.jpg"
+              src={`${basePath}/kegiatan.jpg`}
               alt="Kegiatan Belajar"
               width={400}
               height={220}
@@ -193,7 +193,7 @@ export default function Home() {
           {/* EKSTRAKURIKULER */}
           <div className="program-card">
             <img
-              src="/company-profile/futsal.jpg"
+              src={`${basePath}/futsal.jpg`}
               alt="Kegiatan Ekstrakurikuler"
               width={400}
               height={220}
@@ -213,7 +213,7 @@ export default function Home() {
           {/* KEGIATAN KEAGAMAAN */}
           <div className="program-card">
             <img
-              src="/company-profile/keagmaan.jpg"
+              src={`${basePath}/keagmaan.jpg`}
               alt="Kegiatan Keagamaan"
               width={400}
               height={220}
