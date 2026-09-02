@@ -1,13 +1,11 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
     <main>
       {/* HEADER */}
       <header className="header">
         <div className="logo-area">
-          <Image
-            src="/LOGO-YAYASAN.png"
+          <img
+            src="/company-profile/LOGO-YAYASAN.png"
             alt="LOGO-YAYASAN.png"
             width={70}
             height={70}
@@ -55,8 +53,8 @@ export default function Home() {
         </div>
 
         <div className="hero-logo">
-          <Image
-            src="/LOGO-YAYASAN.png"
+          <img
+            src="/company-profile/LOGO-YAYASAN.png"
             alt="Logo Yayasan At-Taqwa Kemiri Jaya"
             width={350}
             height={350}
@@ -81,8 +79,8 @@ export default function Home() {
 
     {/* PENDIDIKAN */}
     <div className="card">
-      <Image
-        src="/buagustin.jpg"
+      <img
+        src="/company-profile/bugastin.jpg"
         alt="Kegiatan Pendidikan"
         width={400}
         height={200}
@@ -102,9 +100,8 @@ export default function Home() {
 
     {/* PRESTASI */}
     <div className="card">
-
-      <Image
-        src="/pahaji.jpg"
+      <img
+        src="/company-profile/pahaji.jpg"
         alt="Prestasi Siswa"
         width={400}
         height={200}
@@ -122,8 +119,8 @@ export default function Home() {
 
     {/* KARAKTER */}
     <div className="card">
-      <Image
-        src="/parizki.jpg"
+      <img
+        src="/company-profile/parikzi.jpg"
         alt="Pembentukan Karakter"
         width={400}
         height={200}
@@ -178,8 +175,8 @@ export default function Home() {
 
           {/* KEGIATAN BELAJAR */}
           <div className="program-card">
-            <Image
-              src="/kegiatan.jpg"
+            <img
+              src="/company-profile/kegiatan.jpg"
               alt="Kegiatan Belajar"
               width={400}
               height={220}
@@ -198,8 +195,8 @@ export default function Home() {
 
           {/* EKSTRAKURIKULER */}
           <div className="program-card">
-            <Image
-              src="/futsal.jpg"
+            <img
+              src="/company-profile/futsal.jpg"
               alt="Kegiatan Ekstrakurikuler"
               width={400}
               height={220}
@@ -218,8 +215,8 @@ export default function Home() {
 
           {/* KEGIATAN KEAGAMAAN */}
           <div className="program-card">
-            <Image
-              src="/keagmaan.jpg"
+            <img
+              src="/company-profile/keagmaan.jpg"
               alt="Kegiatan Keagamaan"
               width={400}
               height={220}
@@ -244,7 +241,7 @@ export default function Home() {
         <div className="footer-content">
 
           <div className="footer-brand">
-            <Image
+            <img
               src="/LOGO-YAYASAN.png"
               alt="Citra Negara"
               width={90}
