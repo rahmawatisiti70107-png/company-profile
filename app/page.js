@@ -1,3 +1,4 @@
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
 export default function Home() {
   return (
     <main>
@@ -5,7 +6,7 @@ export default function Home() {
       <header className="header">
         <div className="logo-area">
           <img
-            src="/company-profile/LOGO-YAYASAN.png"
+            src={`${basePath}/LOGO-YAYASAN.png`}
             alt="LOGO-YAYASAN.png"
             width={70}
             height={70}
@@ -54,7 +55,7 @@ export default function Home() {
 
         <div className="hero-logo">
           <img
-            src="/company-profile/LOGO-YAYASAN.png"
+            src={`${basePath}/LOGO-YAYASAN.png`}
             alt="Logo Yayasan At-Taqwa Kemiri Jaya"
             width={350}
             height={350}
@@ -80,7 +81,7 @@ export default function Home() {
     {/* PENDIDIKAN */}
     <div className="card">
       <img
-        src="/company-profile/buagustin.jpg"
+        src={`${basePath}/buagustin.jpg`}
         width={400}
         height={200}
         className="card-image"
@@ -99,8 +100,7 @@ export default function Home() {
     {/* PRESTASI */}
     <div className="card">
       <img
-        src="/company-profile/pahaji.jpg"
-        alt="Prestasi Siswa"
+        src={`${basePath}/pahaji.jpg`}
         width={400}
         height={200}
         className="card-image"
@@ -118,7 +118,7 @@ export default function Home() {
     {/* KARAKTER */}
     <div className="card">
       <img
-        src="/company-profile/parizki.jpg"
+        src={`${basePath}/parizki.jpg`}
         width={400}
         height={200}
         className="card-image"
@@ -239,7 +239,7 @@ export default function Home() {
 
           <div className="footer-brand">
             <img
-            src="/company-profile/LOGO-YAYASAN.png"
+            src={`${basePath}/LOGO-YAYASAN.png`}
               alt="Citra Negara"
               width={90}
               height={90}
