@@ -80,8 +80,7 @@ export default function Home() {
     {/* PENDIDIKAN */}
     <div className="card">
       <img
-        src="/company-profile/bugastin.jpg"
-        alt="Kegiatan Pendidikan"
+        src="/company-profile/buagustin.jpg"
         width={400}
         height={200}
         className="card-image"
@@ -89,7 +88,6 @@ export default function Home() {
 
       <div className="card-content">
         <h3>Agustin Wijayanti, S.H.,MM</h3>
-
         <p>
           Ketua BPH
         </p>
@@ -120,8 +118,7 @@ export default function Home() {
     {/* KARAKTER */}
     <div className="card">
       <img
-        src="/company-profile/parikzi.jpg"
-        alt="Pembentukan Karakter"
+        src="/company-profile/parizki.jpg"
         width={400}
         height={200}
         className="card-image"
