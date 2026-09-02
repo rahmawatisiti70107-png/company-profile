@@ -239,7 +239,7 @@ export default function Home() {
 
           <div className="footer-brand">
             <img
-              src="/LOGO-YAYASAN.png"
+            src="/company-profile/LOGO-YAYASAN.png"
               alt="Citra Negara"
               width={90}
               height={90}
